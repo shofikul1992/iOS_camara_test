@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846E25CB1EAF3016008EC816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E25CA1EAF3016008EC816 /* AppDelegate.swift */; };
+		846E25CD1EAF3016008EC816 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E25CC1EAF3016008EC816 /* ViewController.swift */; };
+		846E25D01EAF3016008EC816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846E25CE1EAF3016008EC816 /* Main.storyboard */; };
+		846E25D21EAF3016008EC816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846E25D11EAF3016008EC816 /* Assets.xcassets */; };
+		846E25D51EAF3016008EC816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846E25D31EAF3016008EC816 /* LaunchScreen.storyboard */; };
+		846E25E01EAF3016008EC816 /* CamaraExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E25DF1EAF3016008EC816 /* CamaraExampleTests.swift */; };
+		846E25EB1EAF3016008EC816 /* CamaraExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E25EA1EAF3016008EC816 /* CamaraExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846E25DC1EAF3016008EC816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846E25BF1EAF3015008EC816 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846E25C61EAF3015008EC816;
+			remoteInfo = CamaraExample;
+		};
+		846E25E71EAF3016008EC816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 846E25BF1EAF3015008EC816 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 846E25C61EAF3015008EC816;
+			remoteInfo = CamaraExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846E25C71EAF3016008EC816 /* CamaraExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamaraExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846E25CA1EAF3016008EC816 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		846E25CC1EAF3016008EC816 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		846E25CF1EAF3016008EC816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		846E25D11EAF3016008EC816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		846E25D41EAF3016008EC816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		846E25D61EAF3016008EC816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846E25DB1EAF3016008EC816 /* CamaraExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamaraExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846E25DF1EAF3016008EC816 /* CamaraExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamaraExampleTests.swift; sourceTree = "<group>"; };
+		846E25E11EAF3016008EC816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846E25E61EAF3016008EC816 /* CamaraExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamaraExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846E25EA1EAF3016008EC816 /* CamaraExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamaraExampleUITests.swift; sourceTree = "<group>"; };
+		846E25EC1EAF3016008EC816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		846E25C41EAF3015008EC816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846E25D81EAF3016008EC816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846E25E31EAF3016008EC816 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		846E25BE1EAF3015008EC816 = {
+			isa = PBXGroup;
+			children = (
+				846E25C91EAF3016008EC816 /* CamaraExample */,
+				846E25DE1EAF3016008EC816 /* CamaraExampleTests */,
+				846E25E91EAF3016008EC816 /* CamaraExampleUITests */,
+				846E25C81EAF3016008EC816 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		846E25C81EAF3016008EC816 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				846E25C71EAF3016008EC816 /* CamaraExample.app */,
+				846E25DB1EAF3016008EC816 /* CamaraExampleTests.xctest */,
+				846E25E61EAF3016008EC816 /* CamaraExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		846E25C91EAF3016008EC816 /* CamaraExample */ = {
+			isa = PBXGroup;
+			children = (
+				846E25CA1EAF3016008EC816 /* AppDelegate.swift */,
+				846E25CC1EAF3016008EC816 /* ViewController.swift */,
+				846E25CE1EAF3016008EC816 /* Main.storyboard */,
+				846E25D11EAF3016008EC816 /* Assets.xcassets */,
+				846E25D31EAF3016008EC816 /* LaunchScreen.storyboard */,
+				846E25D61EAF3016008EC816 /* Info.plist */,
+			);
+			path = CamaraExample;
+			sourceTree = "<group>";
+		};
+		846E25DE1EAF3016008EC816 /* CamaraExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				846E25DF1EAF3016008EC816 /* CamaraExampleTests.swift */,
+				846E25E11EAF3016008EC816 /* Info.plist */,
+			);
+			path = CamaraExampleTests;
+			sourceTree = "<group>";
+		};
+		846E25E91EAF3016008EC816 /* CamaraExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846E25EA1EAF3016008EC816 /* CamaraExampleUITests.swift */,
+				846E25EC1EAF3016008EC816 /* Info.plist */,
+			);
+			path = CamaraExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		846E25C61EAF3015008EC816 /* CamaraExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846E25EF1EAF3016008EC816 /* Build configuration list for PBXNativeTarget "CamaraExample" */;
+			buildPhases = (
+				846E25C31EAF3015008EC816 /* Sources */,
+				846E25C41EAF3015008EC816 /* Frameworks */,
+				846E25C51EAF3015008EC816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CamaraExample;
+			productName = CamaraExample;
+			productReference = 846E25C71EAF3016008EC816 /* CamaraExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		846E25DA1EAF3016008EC816 /* CamaraExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846E25F21EAF3016008EC816 /* Build configuration list for PBXNativeTarget "CamaraExampleTests" */;
+			buildPhases = (
+				846E25D71EAF3016008EC816 /* Sources */,
+				846E25D81EAF3016008EC816 /* Frameworks */,
+				846E25D91EAF3016008EC816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846E25DD1EAF3016008EC816 /* PBXTargetDependency */,
+			);
+			name = CamaraExampleTests;
+			productName = CamaraExampleTests;
+			productReference = 846E25DB1EAF3016008EC816 /* CamaraExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		846E25E51EAF3016008EC816 /* CamaraExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846E25F51EAF3016008EC816 /* Build configuration list for PBXNativeTarget "CamaraExampleUITests" */;
+			buildPhases = (
+				846E25E21EAF3016008EC816 /* Sources */,
+				846E25E31EAF3016008EC816 /* Frameworks */,
+				846E25E41EAF3016008EC816 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846E25E81EAF3016008EC816 /* PBXTargetDependency */,
+			);
+			name = CamaraExampleUITests;
+			productName = CamaraExampleUITests;
+			productReference = 846E25E61EAF3016008EC816 /* CamaraExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		846E25BF1EAF3015008EC816 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = FirmName;
+				TargetAttributes = {
+					846E25C61EAF3015008EC816 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					846E25DA1EAF3016008EC816 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 846E25C61EAF3015008EC816;
+					};
+					846E25E51EAF3016008EC816 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 846E25C61EAF3015008EC816;
+					};
+				};
+			};
+			buildConfigurationList = 846E25C21EAF3015008EC816 /* Build configuration list for PBXProject "CamaraExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 846E25BE1EAF3015008EC816;
+			productRefGroup = 846E25C81EAF3016008EC816 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				846E25C61EAF3015008EC816 /* CamaraExample */,
+				846E25DA1EAF3016008EC816 /* CamaraExampleTests */,
+				846E25E51EAF3016008EC816 /* CamaraExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		846E25C51EAF3015008EC816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846E25D51EAF3016008EC816 /* LaunchScreen.storyboard in Resources */,
+				846E25D21EAF3016008EC816 /* Assets.xcassets in Resources */,
+				846E25D01EAF3016008EC816 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846E25D91EAF3016008EC816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846E25E41EAF3016008EC816 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		846E25C31EAF3015008EC816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846E25CD1EAF3016008EC816 /* ViewController.swift in Sources */,
+				846E25CB1EAF3016008EC816 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846E25D71EAF3016008EC816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846E25E01EAF3016008EC816 /* CamaraExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846E25E21EAF3016008EC816 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846E25EB1EAF3016008EC816 /* CamaraExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		846E25DD1EAF3016008EC816 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846E25C61EAF3015008EC816 /* CamaraExample */;
+			targetProxy = 846E25DC1EAF3016008EC816 /* PBXContainerItemProxy */;
+		};
+		846E25E81EAF3016008EC816 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 846E25C61EAF3015008EC816 /* CamaraExample */;
+			targetProxy = 846E25E71EAF3016008EC816 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		846E25CE1EAF3016008EC816 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846E25CF1EAF3016008EC816 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		846E25D31EAF3016008EC816 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				846E25D41EAF3016008EC816 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		846E25ED1EAF3016008EC816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		846E25EE1EAF3016008EC816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		846E25F01EAF3016008EC816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CamaraExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tm.veriableText.CamaraExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		846E25F11EAF3016008EC816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CamaraExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tm.veriableText.CamaraExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		846E25F31EAF3016008EC816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CamaraExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tm.veriableText.CamaraExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CamaraExample.app/CamaraExample";
+			};
+			name = Debug;
+		};
+		846E25F41EAF3016008EC816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CamaraExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tm.veriableText.CamaraExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CamaraExample.app/CamaraExample";
+			};
+			name = Release;
+		};
+		846E25F61EAF3016008EC816 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CamaraExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tm.veriableText.CamaraExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CamaraExample;
+			};
+			name = Debug;
+		};
+		846E25F71EAF3016008EC816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CamaraExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tm.veriableText.CamaraExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CamaraExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		846E25C21EAF3015008EC816 /* Build configuration list for PBXProject "CamaraExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846E25ED1EAF3016008EC816 /* Debug */,
+				846E25EE1EAF3016008EC816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846E25EF1EAF3016008EC816 /* Build configuration list for PBXNativeTarget "CamaraExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846E25F01EAF3016008EC816 /* Debug */,
+				846E25F11EAF3016008EC816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		846E25F21EAF3016008EC816 /* Build configuration list for PBXNativeTarget "CamaraExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846E25F31EAF3016008EC816 /* Debug */,
+				846E25F41EAF3016008EC816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		846E25F51EAF3016008EC816 /* Build configuration list for PBXNativeTarget "CamaraExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846E25F61EAF3016008EC816 /* Debug */,
+				846E25F71EAF3016008EC816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 846E25BF1EAF3015008EC816 /* Project object */;
+}
