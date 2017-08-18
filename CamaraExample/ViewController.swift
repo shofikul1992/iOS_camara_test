@@ -53,6 +53,9 @@ class ViewController: UIViewController,UINavigationControllerDelegate, UIImagePi
         alertController.addAction(photoLibraryButton)
         alertController.addAction(cancelButton)
         
+        
+        
+        
         self.navigationController!.present(alertController, animated: true, completion: nil)
     }
     
