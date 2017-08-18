@@ -505,6 +505,7 @@
 				846E25F11EAF3016008EC816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		846E25F21EAF3016008EC816 /* Build configuration list for PBXNativeTarget "CamaraExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +514,7 @@
 				846E25F41EAF3016008EC816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		846E25F51EAF3016008EC816 /* Build configuration list for PBXNativeTarget "CamaraExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +523,7 @@
 				846E25F71EAF3016008EC816 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
